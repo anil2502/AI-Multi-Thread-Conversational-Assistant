@@ -1,0 +1,131 @@
+
+# ipykernel is the Python execution engine that allows environments like Jupyter Notebook, JupyterLab, and Visual Studio Code notebooks to run Python code.
+ipykernel 
+
+
+# langchain
+langchain==0.3.19
+langchain-core==0.3.40
+langchain-community==0.3.18
+langchain-openai==0.3.7
+openai==1.65.2
+
+
+
+# LangGraph
+langgraph==0.4.5
+
+
+# pinecone
+pinecone==5.4.2
+langchain-pinecone==0.2.1
+tiktoken==0.8.0
+
+# FastAPI
+fastapi
+uvicorn
+
+# to connect DataBase in FastAPI we need 
+sqlalchemy #ORM
+psycopg2 #Driver
+
+# Streamlit (for UI)
+streamlit
+
+# Normal Other Dependies
+pdfplumber
+pypdf
+
+uv
+fastmcp
+langchain-mcp-adapters #for Remote mcp server integration
+
+langgraph-checkpoint-postgres
+asyncpg
+psycopg_binary
+# "psycopg[binary]"  # giving error like Invalid Reuirement
+sqlalchemy #ORM
+psycopg2 #Driver
+
+# Running tools
+# 1) FastAPI:-
+#        uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload=False
+
+
+# 2) streamlit:-
+#        streamlit run <file_path>
+
+# 
+
+
+
+
+# NOTE:
+# confidential things in this project
+#  ====> all .env keys[openai_key, db_url, pinecone_key]
+
+
+
+
+# Questions:
+# 1)AI is sayinng we can't run both fastapi and streamlit as single command with uvicorn
+
+# 2)i don't know why i am facing the issue eventhough  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy()) used in my code but it is still running on proactive loop set_event_loop_policy so asyncpg will not accept the proactive loop policy
+
+# not able to run the application with uvicorn main:app --reload
+
+# 3) 
+
+
+
+
+# POINT OF FORWARD
+# 1) What should i learn next?
+# 2) how to build good resumae? With OR WithOut EXperience?
+# 3) What role i wanted to search For?
+# 4) where should i apply for jobs?
+# 
+
+
+# RESMAE
+# profile summary
+# tech skills
+# experience
+# project
+# education
+
+
+
+
+
+
+# what are the evaluvation metric for rag?
+# what different kind of vector stores ?
+# different ways to store data in vector dbs EX: HNSW, ,,, 
+# generate a short about this entire project to eamplin?
+# how is mcp better than other?
+# what is diirence betwenn anthropic and fastmcp?
+# what is the difference between cruw AI/langchain/langgraph
+# what is the memory concept and how we will implements?
+# what are checkpointer in langgraph?
+
+############# ask question to GPT by asking real time examples?
+# 
+
+
+# KORE.AI CHATBOT LIFECYCLE
+
+# NEED to ask murali about the how a kore AI product Deployed(life cycle) like a chatbot
+# is there any white listings, JWT(what is jwt token why we need it)
+# is any jenkins involved in Our kore.ai 
+
+# Life cycle means ::: Generally we create a chatbot with usecases with in our kore.ai workspace ======>> to apper and functionwell in the Client Website what are different securityies we nned to add or comeout
+
+# what is the unique id and How it is generated in kore to differenciate two different users
+
+
+# ask murali about the Git handling Operations While doing a project like how git Works for like pull request, how within single repo multiple user will work togetherly? how they commit the into single repo then after how they deploy from over there?
+
+#  
+
+

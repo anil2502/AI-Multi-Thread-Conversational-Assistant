@@ -1,0 +1,4 @@
+multi-thread-ENV/
+node_modules/
+__pycache__/
+.env
